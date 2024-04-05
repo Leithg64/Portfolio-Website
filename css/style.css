@@ -1,0 +1,267 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --backgroundColor: #dcd0cc;
+    --primaryColor: #c7622b;
+    --secondaryColor: #fff;
+    --highlightColor: #000;
+    --active: #489c79;
+    --standardFont: 25px;
+}
+
+.page-header {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    border: 5px solid var(--secondaryColor);
+    font-size: var(--standardFont);
+    border-radius: 25px;
+}
+
+.page-header_item {
+    flex: 0 1 200px;
+}
+
+.page-header_item:last-child {
+    flex-grow: 1;
+    text-align: right;
+}
+
+#logo {
+    height: auto;
+    width: 150px;
+}
+
+.navigation-list li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+body {
+    background-color: var(--backgroundColor);
+    font-family: quicksand;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 1000;
+    line-height: 2;
+    color: var(--primaryColor);
+}
+
+.profile__portrait {
+    float: left;
+    height: auto;
+    width: 350px;
+    margin-right: 40px;
+    border-radius: 12%;
+    margin: 30px;
+    border: 5px solid var(--secondaryColor);
+    margin-top: 50px;
+}
+
+.profile {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+h1:hover {
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    transition-duration: 0.3s, 0.3s;
+}
+
+button,
+.button {
+    background-color: var(--primaryColor);
+    font-size: var(--standardFont);
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 10px;
+    border: 3px solid var(--highlightColor);
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    max-width: 350px;
+    transition-duration: 0.3s, 0.3s;
+    text-align: center;
+}
+
+button:hover,
+.button:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+#description {
+    border: 5px solid var(--secondaryColor);
+    line-height: 2;
+    font-size: var(--standardFont);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+@keyframes slide-left  {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(100px); }
+    100% { transform: translateX(0); }
+}
+
+@keyframes slide-right  {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(-100px); }
+    100% { transform: translateX(0); }
+}
+
+.moving-left-svg {
+    animation: slide-left 2s linear infinite;
+    padding-bottom: 30px;
+}
+
+.moving-right-svg {
+    animation: slide-right 2s linear infinite;
+    padding-bottom: 30px;
+}
+
+.svg-left {
+    margin-left: 32%;
+    
+}
+
+.svg-right {
+    margin-right: 32%;
+}
+
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    line-height: 2;
+    border-collapse: collapse;
+    width: 40%;
+}
+
+th, td {
+    border: 5px solid var(--highlightColor);
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: var(--primaryColor);
+}
+
+thead {
+    text-align: left;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.grid__item {
+    background-color:var(--primaryColor);
+    border: 5px solid var(--secondaryColor);
+    padding: 20px;
+}
+
+.grid__item:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s, 0.3s;
+}
+
+.para-center {
+    text-align: center;
+    line-height: 2;
+    font-size: var(--standardFont);
+}
+
+p {
+    line-height: 2;
+    font-size: var(--standardFont);
+}
+
+.contact-info {
+    display: block;
+    text-align: center;
+    padding-top: 75px;
+    font-size: var(--standardFont);
+    line-height: 3;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a { 
+    color: var(--highlightColor);
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+a:active {
+    color: var(--active);
+}
+
+.social-logo {
+    width: 60px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    transition-duration: 0.3s, 0.3s;
+}
+
+.social-logo:hover {
+    transform: scale(1.5);
+    opacity: 0.8;
+}
+
+.page-footer {
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    text-align: center;
+    font-size: var(--standardFont);
+}
+
+@media all and (max-width: 500px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+@media all and (min-width: 500px) and (max-width: 750px){
+    .grid {
+      grid-template-columns: 1fr 1fr;
+    }
+@media all and (max-width: 750px) {
+    .grid {
+        grid-gap: 10px;
+    }
+    .grid__item:last-child {
+        grid-column: auto / auto;
+        grid-row: auto / auto;
+    }
+    h1 {
+        font-size: var(--standardFont);
+    }
+}
+  }
