@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="author" content="Leith Green">
     <title>Contact Leith Green</title>
-    <link rel="shortcut icon" href="./img/favicon.jpg" type="image/x-icon" />
+    <link rel="shortcut icon" href="./img/favicon.jpg" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="https://https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,8 +14,11 @@
     <link rel="stylesheet" type="text/css" href="./css/style.production.css">
 </head>
 <body>
+    <!--HEADER WITH NAVIGATION LINKS AND LOGO-->
     <header class="page-header">
-        <img id="logo" src="./img/leith green logo.png" alt="Leith Green's custom logo">
+        <a href="./index.html">
+            <img id="logo" src="./img/leith-green-logo.png" alt="Leith Green's custom logo">
+        </a>
         <nav class="main-navigation page-header_item" >
             <ul role="menubar" class="navigation-list">
                 <li role="presentation">
@@ -34,31 +37,29 @@
         </nav>
     </header>
     <main>
-        <h1>Contact</h1>
+        <!--DIRECT LINKS TO EMAIL AND PHONE NUMBER-->
+        <h1>Get in Touch!</h1>
         <div class="contact-info" >
-            <form action="" method="post" id="contact-form">
-                <label class="standard-label" for="contact-email">E-mail: </label>
-                <input type="email" id="contact-email" required>
-
-                <label class="standard-label" for="contact-tel">Telephone: </label>
-                <input type="tel" id="contact-tel" pattern="\d{4}[\-]\d{3}[\-]\d{4}">
-
-                <label class="standard-label" for="contact-message">Message: </label>
-                <textarea maxlength="240" id="contact-message" required></textarea>
-
-                <input type="submit" value="Send Message">
-            </form>
-            <a href="mailto:leithgwrk22@gmail.com">Get in Touch!</a><br>
-            Email:<a href="mailto:leithgwrk22@gmail.com">leithgwrk22@gmail.com</a><br>
-            Phone:<a href="tel:+447940495903">+44 79404 95903</a>
+            LinkedIn: <a href="https://www.linkedin.com/in/leith-green-512508248" target="_blank">Leith Green | LinkedIn</a><br>
+            Email: <a href="mailto:leithgwrk22@gmail.com">leithgwrk22@gmail.com</a><br>
+            Phone: <a href="tel:+447940495903">+44 79404 95903</a>
         </div>
     </main>
     <footer class="page-footer">
         <p>Find me on:</p>
+        <!--GITHUB SOCIAL LINK-->
         <div class="social-media">
-            <img class="social-logo" src="img/github.svg" alt="Github">
-            <img class="social-logo" src="img/twitter.svg" alt="Twitter">
-            <img class="social-logo" src="img/linkdin.svg" alt="LinkdIn">
+            <a class="social-link" href="https://github.com/Leithg64" target="_blank">
+                <img class="social-logo" src="img/github.svg" alt="Github">
+            </a>
+            <!--TWITTER SOCIAL LINK-->
+            <a class="social-link" href="https://twitter.com/LeithGreenWD" target="_blank">
+                <img class="social-logo" src="img/twitter.svg" alt="Twitter">
+            </a>
+            <!--LINKEDIN SOCIAL LINK-->
+            <a class="social-link" href="https://www.linkedin.com/in/leith-green-512508248" target="_blank">
+                <img class="social-logo" src="img/linkdin.svg" alt="LinkdIn">
+            </a>   
         </div>
     </footer>
     <script src="js/tota11y.min.js"></script>

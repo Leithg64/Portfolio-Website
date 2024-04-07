@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="author" content="Leith Green">
     <title>Information about Leith Green</title>
-    <link rel="shortcut icon" href="./img/favicon.jpg" type="image/x-icon" />
+    <link rel="shortcut icon" href="./img/favicon.jpg" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="https://https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,8 +14,11 @@
     <link rel="stylesheet" type="text/css" href="./css/style.production.css">
 </head>
 <body>
+    <!--HEADER WITH NAVIGATION LINKS AND LOGO-->
     <header class="page-header">
-        <img id="logo" src="./img/leith green logo.png" alt="Leith Green's custom logo">
+        <a href="./index.html">
+            <img id="logo" src="./img/leith-green-logo.png" alt="Leith Green's custom logo">
+        </a>
         <nav class="main-navigation page-header_item" >
             <ul role="menubar" class="navigation-list">
                 <li role="presentation">
@@ -36,18 +39,20 @@
     <main>
         <article>
             <h1>About</h1>
-            <p class="para-center">Aftering working in various hospitality roles over the past 8 years from bartender to restaurant manager, I found a passion in web development and decided to make the leap, <br>
-                with a main focus on good UI, interesting design and a high level of accessibility. I have strong knowledge of HTML and CSS, with a <br>
-                confident beginners understanding of JavaScript, as well as development experience using WordPress. <br> My main interests in Web Development are implementation of interesting and responsive UX/UI, 
-                <br>as well as a focus on user accessibility and engagement.
+            <p class="para-center">Aftering working in various hospitality roles over the past 8 years, from bartender to restaurant manager, I found a passion in web development and decided to make the leap, <br>
+                with my primary focus' being good UI, interesting design and a high level of accessibility. I have strong knowledge of HTML and CSS, with a <br>
+                confident foundational understanding of JavaScript, as well as development experience using WordPress. <br> 
         </p>
+        <!--LEFT ANIMATED ARROW-->
         <div class="container">
             <svg class="svg-left moving-right-svg" width="100px" height="100px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g id="SVGRepo_bgCarrier" stroke-width="0"/>
                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
                 <g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 1C18.0751 1 23 5.92487 23 12C23 18.0751 18.0751 23 12 23C5.92487 23 1 18.0751 1 12C1 5.92487 5.92487 1 12 1ZM12 7.83335C12 7.4963 12.2088 7.19244 12.5291 7.06346C12.8494 6.93447 13.2181 7.00577 13.4632 7.2441L17.7489 11.4107C18.0837 11.7362 18.0837 12.2638 17.7489 12.5893L13.4632 16.7559C13.2181 16.9942 12.8494 17.0655 12.5291 16.9365C12.2088 16.8076 12 16.5037 12 16.1666V14H7C6.44771 14 6 13.5523 6 13V11C6 10.4477 6.44771 10 7 10H12V7.83335Z" fill="#c7622b"/> </g>
                 </svg>
-            <a id="cv-button" href="./files/CV.pdf" class="button" target="_blank" download>Download my CV!</a>
+                <!--LINK TO VIEW MY CV-->
+            <a id="cv-button" href="./files/CV.pdf" class="button" target="_blank">Download my CV!</a>
+            <!--RIGHT ANIMATED ARROW-->
             <svg class="svg-right moving-left-svg" width="100px" height="100px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g id="SVGRepo_bgCarrier2" stroke-width="0"/>
                 <g id="SVGRepo_tracerCarrier2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -56,6 +61,7 @@
                 </svg>
         </div>
         </article>
+        <!--TABLE NOTING MY SKILLS AND YEARS OF EXPERIENCE-->
         <table>
             <thead>
                 <th>Skills</th>
@@ -93,10 +99,19 @@
     </main>
     <footer class="page-footer">
         <p>Find me on:</p>
+        <!--GITHUB SOCIAL LINK-->
         <div class="social-media">
-            <img class="social-logo" src="img/github.svg" alt="Github">
-            <img class="social-logo" src="img/twitter.svg" alt="Twitter">
-            <img class="social-logo" src="img/linkdin.svg" alt="LinkdIn">
+            <a class="social-link" href="https://github.com/Leithg64" target="_blank">
+                <img class="social-logo" src="img/github.svg" alt="Github">
+            </a>
+            <!--TWITTER SOCIAL LINK-->
+            <a class="social-link" href="https://twitter.com/LeithGreenWD" target="_blank">
+                <img class="social-logo" src="img/twitter.svg" alt="Twitter">
+            </a>
+            <!--LINKEDIN SOCIAL LINK-->
+            <a class="social-link" href="https://www.linkedin.com/in/leith-green-512508248" target="_blank">
+                <img class="social-logo" src="img/linkdin.svg" alt="LinkdIn">
+            </a>   
         </div>
     </footer>
     <script src="js/tota11y.min.js"></script>
