@@ -10,6 +10,11 @@
             box-sizing: border-box;
 }
 
+body {
+    font-family: quicksand;
+    background-color: #D1C2B2;
+}
+
 a { 
     color: #000;
     font-size: 26px;
@@ -23,7 +28,7 @@ a {
     padding: 20px;
     border: 5px solid #fff;
     border-radius: 25px;
-    
+    font-weight: bold;
 }
 
 .page-header_item {
@@ -50,16 +55,11 @@ a {
     margin-left: 15px;
 }
 
-body {
-    background-color: #dcd0cc;
-    font-family: quicksand;
-}
-
 h1 {
     text-align: center;
-    font-size: 60px;
+    font-size: 70px;
+    text-shadow: 1px 1px 1px #000;
     font-weight: 1000;
-    line-height: 2;
     color: #c7622b;
 }
 
@@ -67,17 +67,17 @@ h1 {
     float: left;
     height: auto;
     width: 350px;
-    margin-right: 40px;
+    margin-right: 30%;
     border-radius: 12%;
     margin: 30px;
     border: 5px solid #fff;
-    margin-top: 50px;
+    margin-top: 19%;
 }
 
 .profile {
     max-width: 1000px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 h1:hover {
@@ -137,7 +137,9 @@ button:hover,
 #description {
     border: 5px solid #fff;
     line-height: 2;
-    font-size: 25px;
+    font-size: 27px; 
+    padding: 2%;
+    margin-top: 14%;
 }
 
 .container {
@@ -202,6 +204,7 @@ table {
     line-height: 2;
     border-collapse: collapse;
     width: 40%;
+    font-weight: bold;
 }
 
 th {
@@ -258,11 +261,13 @@ thead {
 p {
     line-height: 2;
     font-size: 25px;
+    font-weight: bold;
 }
 
 .contact-info {
     display: block;
     text-align: center;
+    font-weight: bold;
     padding-top: 75px;
     font-size: 25px;
     line-height: 3;
