@@ -1,12 +1,11 @@
-
-Portfolio Website
+PORTFOLIO WEBSITE
 
 Welcome to the Portfolio Website project! This repository hosts the source code for a personal portfolio website, showcasing the skills, projects, and experiences of the developer.
 
-About
+ABOUT:
 This portfolio website serves as a professional showcase for the developer's work, skills, and accomplishments. It provides visitors with an overview of the developer's background, projects, and contact information.
 
-Features
+FEATURES:
 Homepage: A brief introduction to the developer and their areas of expertise.
 
 Projects: A portfolio section showcasing the developer's projects, including descriptions, technologies used, and links to live demos or repositories.
@@ -17,7 +16,7 @@ Contact: Contact information for reaching out to the developer, including email 
 
 Responsive Design: The website is designed to be responsive and accessible across various devices and screen sizes.
 
-Technologies Used:
+TECHNOLOGIES USED:
 The portfolio website is built using the following technologies:
 
 HTML: Markup language for structuring the content of web pages.
@@ -29,5 +28,5 @@ GitHub Pages: Hosting service for deploying the website online.
 Usage
 To view the portfolio website, simply visit https://leithg64.github.io/Portfolio-Website/ in your web browser.
 
-Contact
+CONTACT:
 If you have any questions or need further assistance, feel free to contact me at leithgwrk22@gmail.com.
