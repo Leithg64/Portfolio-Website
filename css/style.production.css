@@ -110,7 +110,8 @@ button:hover,
 }
 
 #cv-button {
-    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .container {
@@ -160,7 +161,6 @@ button:hover,
 
 .svg-left {
     margin-left: 32%;
-    
 }
 
 .svg-right {
@@ -208,7 +208,7 @@ thead {
 }
 
 .grid__item {
-    background-color: ;
+    /* //background-color: red; */
     border: 5px solid white;
     padding: 20px;
     border-radius: 20px;
