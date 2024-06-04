@@ -12,7 +12,7 @@
 
 body {
     font-family: quicksand;
-    background-color: #D1C2B2;
+    background-image: url("/img/portfolio-wallpaper.jpg");
 }
 
 a { 
@@ -26,8 +26,6 @@ a {
     display: flex;
     width: 100%;
     padding: 20px;
-    border: 5px solid #fff;
-    border-radius: 25px;
     font-weight: bold;
 }
 
@@ -57,10 +55,9 @@ a {
 
 h1 {
     text-align: center;
-    font-size: 70px;
-    text-shadow: 1px 1px 1px #000;
+    font-size: 75px;
     font-weight: 1000;
-    color: #c7622b;
+    color: black;
 }
 
 .profile__portrait {
@@ -71,21 +68,11 @@ h1 {
     border-radius: 12%;
     margin: 30px;
     border: 5px solid #fff;
-    margin-top: 19%;
 }
 
 .profile {
     max-width: 1000px;
     margin: 0 auto;
-    margin-top: 50px;
-}
-
-h1:hover {
-    font-style: italic;
-    font-family:'Times New Roman', Times, serif;
-    -webkit-transition-duration: 0.3s, 0.3s;
-         -o-transition-duration: 0.3s, 0.3s;
-            transition-duration: 0.3s, 0.3s;
 }
 
 button {
@@ -99,7 +86,6 @@ button {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 40px;
     max-width: 350px;
     -webkit-transition-duration: 0.3s, 0.3s;
          -o-transition-duration: 0.3s, 0.3s;
@@ -107,39 +93,24 @@ button {
     text-align: center;
 }
 
-.button {
-    background-color: #c7622b;
-    font-size: 25px;
-    font-weight: 700;
-    border-radius: 10px;
-    padding: 10px;
-    border: 3px solid #000;
-    cursor: pointer;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
-    max-width: 350px;
-    -webkit-transition-duration: 0.3s, 0.3s;
-         -o-transition-duration: 0.3s, 0.3s;
-            transition-duration: 0.3s, 0.3s;
-    text-align: center;
-}
+
 
 button:hover,
 .button:hover {
     -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
             transform: scale(1.2);
-    opacity: 0.8;
 }
 
 #description {
-    border: 5px solid #fff;
     line-height: 2;
     font-size: 27px; 
     padding: 2%;
     margin-top: 14%;
+}
+
+#cv-button {
+    display: flex;
 }
 
 .container {
@@ -237,9 +208,10 @@ thead {
 }
 
 .grid__item {
-    background-color:#c7622b;
-    border: 5px solid #000;
+    background-color: ;
+    border: 5px solid white;
     padding: 20px;
+    border-radius: 20px;
 }
 
 .grid__item:hover {
