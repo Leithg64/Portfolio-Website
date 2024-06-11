@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./css/style-min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.production.css">
 </head>
 <body>
     <!--HEADER WITH NAVIGATION LINKS AND LOGO-->
@@ -23,16 +23,16 @@
         <nav class="main-navigation page-header_item" >
             <ul role="menubar" class="navigation-list">
                 <li role="presentation">
-                    <a href="./index.html" role="menuitem" class="navigation-list_item navigation-list_item--active">Home</a>
+                    <a class="nav-link" href="./index.html" role="menuitem" class="navigation-list_item navigation-list_item--active">Home</a>
                 </li>
                 <li role="presentation">
-                    <a href="./work.html" role="menuitem" class="navigation-list_item">My Work</a>
+                    <a class="nav-link" href="./work.html" role="menuitem" class="navigation-list_item">Projects</a>
                 </li>
                 <li role="presentation">
-                    <a href="./about.html" role="menuitem" class="navigation-list_item">About</a>
+                    <a class="nav-link" href="./about.html" role="menuitem" class="navigation-list_item">About</a>
                 </li>
                 <li role="presentation">
-                    <a href="./contact.html" role="menuitem" class="navigation-list_item">Contact</a>
+                    <a class="nav-link" href="./contact.html" role="menuitem" class="navigation-list_item">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -42,12 +42,13 @@
         <div class="profile">
             <h1 class="hello-world">&lt;Hello World!&gt;</h1>
             <img src="./img/me.jpg" class="profile__portrait" alt="A portrait photo of Leith">
-        <p id="description">My name is Leith Green. <br>Born in Australia, now based in London, building <span>websites</span> with 
+        <p id="description">Hi, I'm Leith Green and this is my portfolio. <br>Born in Australia, now based in London, I'm building <span>websites</span> with 
             a focus on smart, interesting and responsive UX and UI design.
+            <a href="./work.html">
+                <button>View my Projects Here!</button>
+            </a>
         </p>
-        <a href="./work.html">
-            <button>View my work here!</button>
-        </a>
+       
         </div>
         
     </main>

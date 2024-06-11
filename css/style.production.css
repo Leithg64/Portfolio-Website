@@ -12,20 +12,35 @@
 
 body {
     font-family: quicksand;
-    background-image: url('../img/Portfolio-wallpaper.png');
+    background-image: url('../img/port-background.png');
+}
+
+.work-link {
+    color: orange;
+    font-weight: bolder;
+    text-decoration: underline;
+    display: block;
+    text-align: center;
 }
 
 a { 
     color: #000;
-    font-size: 26px;
+    font-size: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    -webkit-transition-duration: 0.3s, 0.3s;
+    -o-transition-duration: 0.3s, 0.3s;
+       transition-duration: 0.3s, 0.3s;
 }
+
+
 
 .page-header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    padding: 20px;
+    margin-top: 20px;
     font-weight: bold;
 }
 
@@ -50,7 +65,23 @@ a {
 .navigation-list li{
     list-style-type: none;
     display: inline-block;
-    margin-left: 15px;
+    -webkit-transition-duration: 0.3s, 0.3s;
+    -o-transition-duration: 0.3s, 0.3s;
+       transition-duration: 0.3s, 0.3s;
+}
+
+.navigation-list li:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+        transform: scale(1.2);
+}
+
+.nav-link {
+    font-size: 35px;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+
 }
 
 h1 {
@@ -58,6 +89,16 @@ h1 {
     font-size: 75px;
     font-weight: 1000;
     color: black;
+    text-shadow: 2px 2px #fff;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.hello-world {
+    text-shadow: 2px 2px #fff;
 }
 
 .profile__portrait {
@@ -75,13 +116,14 @@ h1 {
     margin: 0 auto;
 }
 
-button {
-    background-color: #c7622b;
+button { 
+    background-color: #000;
+    color: orange;
     font-size: 25px;
     font-weight: 700;
     border-radius: 10px;
-    padding: 10px;
-    border: 3px solid #000;
+    padding: 13px;
+    border: 3px solid orange;
     cursor: pointer;
     display: block;
     margin-left: auto;
@@ -110,6 +152,8 @@ button:hover,
 }
 
 #cv-button {
+    display: inline;
+    font-weight: bolder;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -179,20 +223,23 @@ table {
 }
 
 th {
-    border: 5px solid #000;
+    text-transform: uppercase;
+    background-color: #000;
+    color: orange;
+    border: 5px solid orange;
     padding: 8px;
-    text-align: left;
+    text-align: center;
+    width: 20px
 }
 
 td {
-    border: 5px solid #000;
+    background-color: #000;
+    color: orange;
+    border: 5px solid orange;
     padding: 8px;
     text-align: left;
 }
 
-th {
-    background-color: #c7622b;
-}
 
 thead {
     text-align: left;
@@ -208,10 +255,12 @@ thead {
 }
 
 .grid__item {
-    /* //background-color: red; */
+    background-color: #000;
     border: 5px solid white;
+    color: orange;
     padding: 20px;
     border-radius: 20px;
+    text-align: center;
 }
 
 .grid__item:hover {
@@ -248,10 +297,10 @@ p {
 }
 
 .project-imgs {
-    width: 70%;
+    width: 75%;
     height: auto;
-    border: 4px solid #fff;
     border-radius: 10px;
+    margin: auto;
 }
 
 
