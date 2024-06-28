@@ -255,7 +255,7 @@ thead {
 }
 
 .grid__item {
-    background-color: #000;
+    background-image: url('../img/card-background.png');
     border: 5px solid white;
     color: orange;
     padding: 20px;
